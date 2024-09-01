@@ -71,7 +71,7 @@ const waterMaterial = new THREE.ShaderMaterial({
 let ship = null
 const gltfLoader = new GLTFLoader()
 gltfLoader.load(
-    '/model/dutch_ship/dutch_ship_medium_1k.gltf',
+    './model/dutch_ship/dutch_ship_medium_1k.gltf',
     (gltf) =>
     {
         ship = gltf.scene
